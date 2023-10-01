@@ -50,5 +50,7 @@ if __name__ == '__main__':
     print(average([12,20,37]) == 23)
     print(average([0,0,0,0,0]) == 0)
     print('find median')
-    print(median([]) == 0)
-    print
+    print(median([]) == None)
+    print(median([1,2,3]) == 2)
+    print(median([3,7,10,4,1,9,6,5,2,8]) == 5.5)
+    print(median([3,7,10,4,1,9,6,2,8]) == 6)
