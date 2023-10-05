@@ -35,6 +35,15 @@ def median(numbers):
     if len(numbers) == 0:
         return None
 
+    numbers.sort()
+
+    middleIndex = len(numbers)//2
+
+    if len(numbers)%2 == 0:
+        return (numbers[middleIndex]+numbers[middleIndex- 1])/2
+    else:
+        return numbers[middleIndex]
+
 
 
 if __name__ == '__main__':
