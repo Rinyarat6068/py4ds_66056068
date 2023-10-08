@@ -33,7 +33,7 @@ def perimeter(l, w):
     return (l + w) + (l + w)
 
 
-def volume(param1, param2, param3):
+def volume(l, w, h):
     """
     Calculates the volume of an object given its length, width, and height.
 
@@ -45,11 +45,11 @@ def volume(param1, param2, param3):
     Returns:
         float: The volume of the object.
     """
-    # TODO : complete this
-    pass
+    # FIX : complete this
+    return l*w*h
 
 
-def surface_area(param1, param2, param3):
+def surface_area(l, w, h):
     """
     Calculate the surface area of a rectangular prism.
 
@@ -61,5 +61,5 @@ def surface_area(param1, param2, param3):
     Returns:
         float: The total surface area of the rectangular prism.
     """
-    # TODO : complete this
-    pass
+    # FIX : complete this
+    return 2 * (l * w) + 2 * (w * h) + 2 * (l * h)
