@@ -3,7 +3,7 @@ Execise 4
 """
 
 
-def area(param1, param2):
+def area(l, w):
     """
     Calculates the area of a rectangle given its length and width.
 
@@ -15,10 +15,10 @@ def area(param1, param2):
         float: The area of the rectangle.
     """
     # FIX : complete this
-    return param1 * param2
+    return l * w
 
 
-def perimeter(param1, param2):
+def perimeter(l, w):
     """
     Calculate the perimeter of a rectangle.
 
@@ -29,8 +29,8 @@ def perimeter(param1, param2):
     Returns:
         float: The perimeter of the rectangle.
     """
-    # TODO : complete this
-    return (param1 + param2) + (param1 + param2)
+    # FIX : complete this
+    return (l + w) + (l + w)
 
 
 def volume(param1, param2, param3):
