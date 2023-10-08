@@ -14,7 +14,7 @@ def area(param1, param2):
     Returns:
         float: The area of the rectangle.
     """
-    # TODO : complete this
+    # FIX : complete this
     return param1 * param2
 
 
@@ -30,7 +30,7 @@ def perimeter(param1, param2):
         float: The perimeter of the rectangle.
     """
     # TODO : complete this
-    pass
+    return (param1 + param2) + (param1 + param2)
 
 
 def volume(param1, param2, param3):
