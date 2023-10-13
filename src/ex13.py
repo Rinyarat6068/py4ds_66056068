@@ -18,7 +18,7 @@ def calc_sum(num_list):
         result += i
     return result
 
-def calc_prod(params):
+def calc_prod(num_list):
     """
     Calculates the product of all the numbers in the given list.
 
@@ -28,4 +28,7 @@ def calc_prod(params):
     Returns:
         int: The product of all the numbers in the list.
     """
-    pass
+    result = 1
+    for i in num_list:
+        result = result * i
+    return result
