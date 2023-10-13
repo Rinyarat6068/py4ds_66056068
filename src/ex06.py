@@ -13,7 +13,7 @@ def ordinal_suffix(num):
     Returns:
         str: The ordinal suffix corresponding to the given number.
     """
-    # TODO : complete this
+    # FIX : complete this
     if num == 0 or num >= 4 and num <= 100:
         return str(num)+"th"
     elif num == 1 or num == 101:
