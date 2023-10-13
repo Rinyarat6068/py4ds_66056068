@@ -12,7 +12,7 @@ ALL_CHARS = LOWER_LETTERS + UPPER_LETTERS + NUMBERS + SPECIAL
 
 
 def gen_password(length):
-    # TODO : complete this
+    # FIX : complete this
     my_length = length
     if length < 12:
         my_length = 12
